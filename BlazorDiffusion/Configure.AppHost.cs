@@ -92,7 +92,7 @@ public class AppHost : AppHostBase, IHostingStartup
             // Don't use public prefix if working locally
             services.AddSingleton<IStableDiffusionClient>(new DreamStudioClient
             {
-                ApiKey = Environment.GetEnvironmentVariable("DREAMAI_APIKEY") ?? "<your_api_key>",
+                ApiKey = Environment.GetEnvironmentVariable("DREAMAI_APIKEY") ?? "sk-I137TnQs9BxTzhdNarIv3Xz028yAxfERCPnN5T8clkxsAReg",
                 OutputPathPrefix = "artifacts",
                 PublicPrefix = appConfig.AssetsBasePath,
                 VirtualFiles = appFs

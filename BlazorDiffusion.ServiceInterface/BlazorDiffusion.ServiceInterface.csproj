@@ -14,7 +14,7 @@
         <PackageReference Include="ServiceStack" Version="8.*" />
         <PackageReference Include="ServiceStack.Aws" Version="8.0.0" />
         <PackageReference Include="ServiceStack.Ormlite" Version="8.*" />
-        <PackageReference Include="ServiceStack.Server" Version="8.0.0" />
+        <PackageReference Include="ServiceStack.Server" Version="8.3.1" />
     </ItemGroup>
 
     <ItemGroup>
